@@ -3,4 +3,4 @@ title: HEI Lab
 layout: homelay
 permalink: /
 ---
-#### Welcome to the Human-Centered Embodied Intellgence (HEI) Lab
+#### Welcome to the Human-Centered Embodied Intelligence (HEI) Lab!
