@@ -25,14 +25,13 @@
             </div>
             {% endif %}
 
-            <div><strong>"{{ publi.Title }}"</strong></div>
+            <div><strong>{{ publi.Title }}</strong></div>
             <div>{{ publi.Author }}</div>
-            <div><em>{{ publi["Journal"] }}</em></div>
-            <div>{{ publi["Publication Year"] | to_integer }}</div>
+            <div>In <em>{{ publi["Journal"] }}</em> ({{ publi["Aka"] }}), {{ publi["Publication Year"] | to_integer }}</div>
 
             <!-- DOI -->
             {% if publi.DOI %}
-                <p><a href="https://doi.org/{{publi.DOI}}" class="btn btn-outline-primary" style="margin-top:10px;">PAPER</a></p>
+                <p><a href="{{publi.DOI}}" class="btn btn-outline-primary" style="margin-top:10px;">PAPER</a></p>
             {% endif %}
         </p>
 

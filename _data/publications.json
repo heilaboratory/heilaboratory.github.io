@@ -5,77 +5,88 @@
     "Author": "Seongjun Jeong, Gi-Cheon Kang, Seongho Choi, Joochan Kim, Byoung-Tak Zhang",
     "Title": "Continual Vision-and-Language Navigation",
     "DOI": "https://arxiv.org/abs/2403.15049",
-    "Journal": "The British Machine Vision Conference (BMVC)",
+    "Journal": "The British Machine Vision Conference",
+    "Aka": "BMVC"
     },
     {
     "Publication Year": 2025,
     "Author": "Gi-Cheon Kang*, Junghyun Kim*, Kyuhwan Shim, Jun Ki Lee, Byoung-Tak Zhang",
     "Title": "CLIP-RT: Learning Language-Conditioned Robotic Policies from Natural Language Supervision",
     "DOI": "https://www.roboticsproceedings.org/rss21/p016.html",
-    "Journal": "Robotics: Science and Systems (RSS)",
+    "Journal": "Robotics: Science and Systems",
+    "Aka": "RSS"
     },
     {
     "Publication Year": 2025,
     "Author": "Suyeon Shin, Sujin Jeon*, Junghyun Kim*, Gi-Cheon Kang*, Byoung-Tak Zhang",
     "Title": "Socratic Planner: Self-QA-Based  Zero-Shot Planning for Embodied Instruction Following",
     "DOI": "https://ieeexplore.ieee.org/abstract/document/11128677",
-    "Journal": "IEEE International Conference on Robotics and Automation (ICRA)",
+    "Journal": "IEEE International Conference on Robotics and Automation",
+    "Aka": "ICRA"
     },
     {
     "Publication Year": 2024,
     "Author": "Junghyun Kim, Gi-Cheon Kang*, Jaein Kim*, Seoyoon Yang, Minjoon Jung, Byoung-Tak Zhang",
     "Title": "PGA: Personalizing Grasping Agents with Single Human-Robot Interaction",
     "DOI": "https://ieeexplore.ieee.org/document/10801347",
-    "Journal": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+    "Journal": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
+    "Aka": "IROS"
     },
     {
     "Publication Year": 2024,
     "Author": "Gi-Cheon Kang, Junghyun Kim, Jaein Kim, Byoung-Tak Zhang",
     "Title": "PROGrasp: Pragmatic Human-Robot Communication for Object Grasping",
     "DOI": "https://ieeexplore.ieee.org/document/10610543",
-    "Journal": "IEEE International Conference on Robotics and Automation (ICRA)",
+    "Journal": "IEEE International Conference on Robotics and Automation",
+    "Aka": "ICRA"
     },
     {
     "Publication Year": 2023,
     "Author": "Gi-Cheon Kang, Sungdong Kim*, Jin-Hwa Kim*, Donghyun Kwak*, Byoung-Tak Zhang",
     "Title": "The Dialog Must Go On: Improving Visual Dialog via Generative Self-Training",
     "DOI": "https://ieeexplore.ieee.org/document/10203535",
-    "Journal": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "Journal": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "Aka": "CVPR"
     },
     {
     "Publication Year": 2023,
     "Author": "Junghyun Kim, Gi-Cheon Kang*, Jaein Kim*, Suyeon Shin, Byoung-Tak Zhang",
     "Title": "GVCCI: Lifelong Learning of Visual Grounding for Language-Guided Robotic Manipulation",
     "DOI": "https://ieeexplore.ieee.org/document/10342021",
-    "Journal": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+    "Journal": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
+    "Aka": "IROS"
     },
     {
     "Publication Year": 2021,
     "Author": "Gi-Cheon Kang, Junseok Park, Hwaran Lee, Byoung-Tak Zhang*, Jin-Hwa Kim*",
     "Title": "Reasoning Visual Dialog with Sparse Graph Learning and Knowledge Transfer",
-    "Journal": "Findings of Empirical Methods in Natural Language Processing (EMNLP Findings)",
-    "DOI": "https://aclanthology.org/2021.findings-emnlp.31"
+    "Journal": "Findings of Empirical Methods in Natural Language Processing",
+    "DOI": "https://aclanthology.org/2021.findings-emnlp.31",
+    "Aka": "EMNLP Findings"
     },
     {
     "Publication Year": 2021,
     "Author": "Ahjeong Seo, Gi-Cheon Kang, Joonhan Park, Byoung-Tak Zhang",
     "Title": "Attend What You Need: Motion-Appearance Synergistic Networks for Video Question Answering",
     "DOI": "https://aclanthology.org/2021.acl-long.481",
-    "Journal": "Annual Meeting of the Association for Computational Linguistics (ACL)"
+    "Journal": "Annual Meeting of the Association for Computational Linguistics",
+    "Aka": "ACL"
     },
     {
     "Publication Year": 2020,
     "Author": "Taehyeong Kim, Injune Hwang, Gi-Cheon Kang, Won-Seok Choi, Hyunseo Kim, Byoung-Tak Zhang",
     "Title": "Label Propagation Adaptive Resonance Theory for Semi-Supervised Continuous Learning",
     "DOI": "https://ieeexplore.ieee.org/document/9054655",
-    "Journal": "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+    "Journal": "IEEE International Conference on Acoustics, Speech and Signal Processing",
+    "Aka": "ICASSP"
     },
     {
     "Publication Year": 2019,
     "Author": "Gi-Cheon Kang, Jaeseo Lim, Byoung-Tak Zhang",
     "Title": "Dual Attention Networks for Visual Reference Resolution in Visual Dialog",
-    "Journal": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
-    "DOI": "https://aclanthology.org/D19-1209"
+    "Journal": "Conference on Empirical Methods in Natural Language Processing",
+    "DOI": "https://aclanthology.org/D19-1209",
+    "Aka": "EMNLP"
     }
 
 ]
