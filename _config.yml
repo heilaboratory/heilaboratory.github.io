@@ -27,6 +27,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
+# Build future posts
+future: true
+
 # Conversion
 markdown: kramdown
 highlighter: rouge
