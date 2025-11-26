@@ -14,13 +14,13 @@ social:
 education:
   - institution: "Seoul National University" 
     degree: "Ph.D. in Artificial Intelligence" 
-    year: "2020-2025"
+    year: "2025"
   - institution: "Seoul National University" 
     degree: "M.S. in Cognitive Science" 
-    year: "2018-2020"
+    year: "2020"
   - institution: "Ajou University"
     degree: "B.Eng. in Software and Computer Engineering"
-    year: "2011-2018"
+    year: "2018"
 ---
 
 
