@@ -1,0 +1,155 @@
+[
+	
+    {
+    "Publication Year": 2023,
+    "Author": "H. Schlögl, A. Villringer, K. Miehle, M. Fasshauer, M. Stumvoll, K. Mueller",
+    "Title": "Metreleptin robustly increases resting-state brain connectivity in treatment-naïve female patients with lipodystrophy",
+    "DOI": "https://dx.doi.org/10.1210/jendso/bvad072",
+    "Journal": "Journal of the Endocrine Society",
+    },
+    {
+    "Publication Year": 2023,
+    "Author": "H. Schlögl, L. Janssen, M. Fasshauer, K. Miehle, A. Villringer, M. Stumvoll, K. Mueller",
+    "Title": "Reward processing during monetary incentive delay task after leptin substitution in lipodystrophy - An fMRI case series",
+    "DOI": "https://dx.doi.org/10.1210/jendso/bvad052",
+    "Journal": "Journal of the Endocrine Society",
+    },
+    {
+    "Publication Year": 2023,
+    "Author": "K. Mueller, F. Thiel, B. Taskin, F. Beutner, A. Teren, V. K. Dubovoy, H. E. Möller, A. Villringer, M. L. Schroeter",
+    "Title": "Brain dysconnectivity with heart failure",
+    "DOI": "https://dx.doi.org/10.1093/braincomms/fcad103",
+    "Journal": "Brain Communications",
+    "Preview": "m_fcad103_ga1.jpeg"
+    },
+    {
+    "Publication Year": 2023,
+    "Author": "E. Williams, M. Kienast, E. Medawar, J. Reinelt, A. Merola, S. A. I. Klopfenstein, A. R. Flint, P. Heeren, A.-S. Poncette, F. Balzer, et al.",
+    "Title": "A standardized clinical data harmonization pipeline for scalable AI application deployment (FHIR-DHP): Validation and usability study",
+    "DOI": "https://dx.doi.org/10.2196/43847",
+    "Journal": "JMIR Medical Informatics (JMI)",
+    },
+    {
+    "Publication Year": 2023,
+    "Author": "K. I. Paul, K. Mueller, P.-N. Rousseau, A. Glathe, N. A. Taatgen, F. Cnossen, P. Lanzer, A. Villringer, C. Steele",
+    "Title": "Visuo-motor transformations in the intraparietal sulcus mediate the acquisition of endovascular medical skill",
+    "DOI": "https://dx.doi.org/10.1016/j.neuroimage.2022.119781",
+    "Journal": "NeuroImage",
+    },
+    {
+    "Publication Year": 2023,
+    "Author": "M. L. Schroeter, J. Godulla, F. Thiel, B. Taskin, F. Beutner, V. K. Dubovoy, A. Teren, J. Camilleri, S. Eickhoff, A. Villringer, et al.",
+    "Title": "Heart failure decouples the precuneus in interaction with social cognition and executive functions",
+    "DOI": "https://dx.doi.org/10.1038/s41598-023-28338-0",
+    "Journal": "Scientific Reports", 
+    "Preview": "41598_2023_28338_Fig2_HTML.webp"
+    },
+    {
+    "Publication Year": 2023,
+    "Author": "L. Lampe, H.-J. Huppertz, S. Anderl-Straub, F. Albrecht, T. Ballarini, S. Bisenius, K. Mueller, S. Niehaus, K. Fassbender, K. Fliessbach, et al.",
+    "Title": "Multiclass prediction of different dementia syndromes based on multi-centric volumetric MRI imaging",
+    "DOI": "https://dx.doi.org/10.1016/j.nicl.2023.103320",
+    "Journal": "NeuroImage: Clinical",
+    },
+    {
+    "Publication Year": 2023,
+    "Author": "R. Torrecuso, K. Mueller, Š. Holiga, T. Sieger, J. Vymazal, F. Růžička, J. Roth, E. F. Růžička, M. L. Schroeter, R. Jech, et al.",
+    "Title": "Improving fMRI in Parkinson's disease by accounting for brain region-specific activity patterns",
+    "DOI": "https://dx.doi.org/10.1016/j.nicl.2023.103396",
+    "Journal": "NeuroImage: Clinical",
+    },
+    {
+    "Publication Year": 2023,
+    "Author": "D. Kiakou, A. Adamopoulos, N. Scherf",
+    "Title": "Graph-based disease prediction in neuroimaging: Investigating the impact of feature selection",
+    "DOI": "https://dx.doi.org/10.1007/978-3-031-31982-2_24",
+    "Journal": "Advances in Experimental Medicine and Biology (AEMB)",
+    },
+    {
+    "Publication Year": 2023,
+    "Author": "K.-R. Müller, S. Hofmann",
+    "Title": "Interpreting deep learning models for multi-modal neuroimaging",
+    "DOI": "https://dx.doi.org/10.1109/BCI57258.2023.10078502",
+    "Journal": "Proceedings of the 11th International Winter Conference on Brain-Computer Interface (BCI)",
+    "Preview": "mulle1-O_01_Invited_Muller-large.gif"
+    },
+    {
+    "Publication Year": 2022,
+    "Author": "P. Filip, R. Jech, A. Fečíková, P. Havránková, F. Růžička, K. Mueller, D. Urgošík",
+    "Title": "Restoration of functional network state towards more physiological condition as the correlate of clinical effects of pallidal deep brain stimulation in dystonia",
+    "DOI": "https://dx.doi.org/10.1016/j.brs.2022.08.025",
+    "Journal": "Brain Stimulation",
+    "Preview": "gr2.jpg"
+    },
+    {
+    "Publication Year": 2022,
+    "Author": "N. Koutsouleris, C. Pantelis, D. Velakoulis, P. McGuire, D. B. Dwyer, M.-F. Urquijo-Castro, R. Paul, S. Dong, D. Popovic, O. Oeztuerk, et al.",
+    "Title": "Exploring links between psychosis and frontotemporal dementia using multimodal machine learning: Dementia praecox revisited",
+    "DOI": "https://dx.doi.org/10.1001/jamapsychiatry.2022.2075",
+    "Journal": "JAMA Psychiatry",
+    "Preview": "yoi220045f1_1662054851.png"    
+    },
+    {
+    "Publication Year": 2022,
+    "Author": "P. Paschou, Y. Jin, K. Müller-Vahl, H. E. Möller, R. Rizzo, P. J. Hoekstra, V. Roessner, N. Mol Debes, Y. Worbe, A. Hartmann, et al.",
+    "Title": "Enhancing neuroimaging genetics through meta-analysis for Tourette syndrome (ENIGMA-TS): A worldwide platform for collaboration",
+    "DOI": "https://dx.doi.org/10.3389/fpsyt.2022.958688",
+    "Journal": "Frontiers in Psychiatry",
+    },
+    {
+    "Publication Year": 2022,
+    "Author": "M. Polyakova, K. Mueller, K. Arélin, L. Lampe, F. S. Rodriguez, T. Luck, J. Kratzsch, K.-T. Hoffmann, S. Riedel-Heller, A. Villringer, et al.",
+    "Title": "Increased serum NSE and S100B indicate neuronal and glial alterations in subjects under 71 years with mild neurocognitive disorder/mild cognitive impairment",
+    "DOI": "https://dx.doi.org/10.3389/fncel.2022.788150",
+    "Journal": "Frontiers in Cellular Neuroscience",
+    },
+    {
+    "Publication Year": 2022,
+    "Author": "K. Mueller, F. Růžička, M. Slovák, Z. Forejtová, P. Dušek, P. Dušek, R. Jech, T. Serranová",
+    "Title": "Symptom-severity-related brain connectivity alterations in functional movement disorders",
+    "DOI": "https://dx.doi.org/10.1016/j.nicl.2022.102981",
+    "Journal": "NeuroImage: Clinical",
+    },
+    {
+    "Publication Year": 2022,
+    "Author": "L. Maiello, L. Ball, M. Micali, F. Iannuzzi, N. Scherf, R.-T. Hoffmann, M. Gama de Abreu, P. Pelosi, R. Huhle",
+    "Title": "Automatic lung segmentation and quantification of aeration in computed tomography of the chest using 3D transfer learning",
+    "DOI": "https://dx.doi.org/10.3389/fphys.2021.725865",
+    "Journal": "Frontiers in Physiology",
+    },
+    {
+    "Publication Year": 2022,
+    "Author": "R. Jech, K. Mueller",
+    "Title": "Investigating network effects of DBS with fMRI",
+    "DOI": "https://dx.doi.org/10.1016/B978-0-12-821861-7.00026-9",
+    "Journal": "Connectomic Deep Brain Stimulation",
+    },
+    {
+    "Publication Year": 2022,
+    "Author": "R. Torrecuso, K. Mueller, Š. Holiga, D. Urgosik, J. Vymazal, T. Sieger, F. Růžička, E. Růžička, M. L. Schroeter, R. Jech, et al.",
+    "Title": "Different brain areas require different analysis models: fMRI observations in Parkinson's disease",
+    "Journal": "ISMRM 31st Annual Meeting & Exhibition",
+    },
+    {
+    "Publication Year": 2022,
+    "Author": "E. Williams, M. Kienast, E. Medawar, J. Reinelt, A. Merola, S. A. I. Klopfenstein, A. R. Flint, P. Heeren, A.-S. Poncette, F. Balzer, et al.",
+    "Title": "FHIR-DHP: A standardized clinical data harmonisation pipeline for scalable AI application deployment",
+    "DOI": "https://dx.doi.org/10.1101/2022.11.07.22281564",
+    "Journal": "Medrxiv"
+    },
+    {
+    "Publication Year": 2022,
+    "Author": "L. Hahn, S. B. Eickhoff, K. Mueller, L. Schilbach, H. Barthel, K. Fassbender, K. Fliessbach, J. Kornhuber, J. Prudlo, M. Synofzik, et al.",
+    "Title": "Resting-state alterations in behavioral variant frontotemporal dementia are related to the distribution of monoamine and GABA neurotransmitter systems",
+    "DOI": "https://dx.doi.org/10.1101/2022.08.30.22278624",
+    "Journal": "Medrxiv"
+    },
+    {
+    "Publication Year": 2022,
+    "Author": "K. I. Paul, K. Mueller, P.-N. Rousseau, A. Glathe, N. A. Taatgen, F. Cnossen, P. Lanzer, A. Villringer, C. Steele",
+    "Title": "Visuo-motor transformations in the intraparietal sulcus mediate the acquisition of endovascular medical skill",
+    "Journal": "Biorxiv",
+    "DOI": "https://dx.doi.org/10.1101/2022.06.15.496236"
+    }
+
+]

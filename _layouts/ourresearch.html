@@ -1,0 +1,93 @@
+---
+layout: default
+---
+
+<button id="scrollToTopButton" class="btn btn-light" onclick="scrollToTop()"></button>
+
+<script>
+  window.onscroll = function() {
+    var scrollToTopButton = document.getElementById("scrollToTopButton");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      scrollToTopButton.style.display = "block";
+    } else {
+      scrollToTopButton.style.display = "none";
+    }
+  };
+
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  }
+</script>
+
+<style>
+#scrollToTopButton {
+  display: none;
+  position: fixed;
+  width: 70px;
+  height: 50px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #0A6B65;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  box-shadow: none;
+  outline: none;
+  transition: background-color 0.8s, color 0.8s;
+}
+
+#scrollToTopButton:active,
+#scrollToTopButton:focus {
+  background-color: transparent;
+  color: #0A6B65;
+  border: none;
+  box-shadow: none;
+}
+
+#scrollToTopButton::before {
+  content: "Top";
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  /* Apply hover styles only on devices with a minimum width of 768px (typical tablets and desktops) */
+  #scrollToTopButton:hover {
+    background-color: transparent;
+    color: #0A6B65;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  #scrollToTopButton:hover::before {
+    content: "^";
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+  }
+}
+</style>
+
+<div>
+	<h1 class="mb-5">{{ page.title }}</h1>
+	{{ content }}
+</div>
+
+<script>
+const allPTags = document.querySelectorAll("p");
+
+allPTags.forEach((elem) => {
+    if (elem.innerText === "" && elem.childNodes.length === 1 && elem.childNodes[0].tagName === "IMG") {
+        elem.parentNode.insertBefore(elem.childNodes[0], elem);
+        elem.remove();
+    }
+});
+</script>

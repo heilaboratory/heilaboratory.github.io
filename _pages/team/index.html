@@ -1,0 +1,87 @@
+---
+title: People
+layout: page
+permalink: /team/
+---
+<div>
+    <img class="img-cover mb-3" src="/assets/images/team.jpg" style="max-height: 700px; margin-top: -25px;">
+</div>
+
+<!-- Staff -->
+<h2 class="mb-3"><a id="staff"></a>Team</h2>
+
+{% assign members = site.posts | where: 'category', 'leader'%}
+<ul class="list-unstyled">
+<div class="row">
+{% for member in members%}
+    {% assign ncols = 2 %}
+    {% assign i = forloop.index0 | modulo: ncols %}
+        <div class="col">
+            {%- include team_member.html -%}
+        </div>
+    {% if i == 1 %}
+        </div><div class="row">
+    {% endif %}
+{% endfor %}
+</div>
+</ul>
+
+<!-- Researchers -->
+<h2 class="mb-3"><a id="researcher"></a>Scientific Researchers</h2>
+
+{% assign members = site.posts | where: 'category', 'postdoc'%}
+<ul class="list-unstyled">
+<div class="row">
+{% for member in members%}
+    {% assign ncols = 2 %}
+    {% assign i = forloop.index0 | modulo: ncols %}
+        <div class="col">
+            {%- include team_member.html -%}
+        </div>
+    {% if i == 1 %}
+        </div><div class="row">
+    {% endif %}
+{% endfor %}
+</div>
+</ul>
+
+<!-- PhD Students -->
+<h2 class="mb-3"><a id="student"></a>Doctoral Candidates</h2>
+
+{% assign members = site.posts | where: 'category', 'phd-student'%}
+<ul class="list-unstyled">
+<div class="row">
+{% for member in members%}
+    {% assign ncols = 2 %}
+    {% assign i = forloop.index0 | modulo: ncols %}
+        <div class="col">
+            {%- include team_member.html -%}
+        </div>
+    {% if i == 1 %}
+        </div><div class="row">
+    {% endif %}
+{% endfor %}
+</div>
+</ul>
+
+<!-- Students -->
+<h2 class="mb-3"><a id="alumni"></a>Students</h2>
+
+{% assign members = site.posts | where: 'category', 'student' %}
+<ul class="list-unstyled">
+<div class="row">
+{% for member in members%}
+    {% assign ncols = 2 %}
+    {% assign i = forloop.index0 | modulo: ncols %}
+        <div class="col">
+            {%- include team_member.html -%}
+        </div>
+    {% if i == 1 %}
+        </div><div class="row">
+    {% endif %}
+{% endfor %}
+</div>
+</ul>
+
+<!-- Alumni -->
+<h4 class="mb-3"><a id="alumni" href="/alumni">Lab Alumni</a></h4>

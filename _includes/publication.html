@@ -1,0 +1,64 @@
+<style>
+    .custom-list {
+        font-size: 18px; 
+    }
+    .img {
+        width: 100% !important;
+        height: 100%;
+        max-height: 450px !important;
+    }
+    .div{
+        max-width: 400px; 
+        max-height: 450px;/* Set a maximum width for the container on larger screens */
+        margin-right: 10px;
+        float: left;
+    }
+</style>
+
+<li class="media mb-1">
+    <div class="media-body">
+
+        <p>
+            <!-- Preview Image or Gif -->
+            
+            {% if publi.Preview %}
+            <div class="div"> 
+               <img src="/assets/images/{{ publi.Preview }}" alt="Manifold Learning" class="img"></img>
+            </div>
+            {% endif %}
+
+            <!-- author -->
+            {{ publi.Author }},
+
+            <!-- year -->
+           <span style="font-size: larger;">{{ publi['Publication Year'] | to_integer }},</span>
+
+
+            <!-- article title -->
+            <span style="font-weight: bold; font-size: larger; font-style: oblique;">"{{ publi.Title }}"</span>,
+
+            <!-- journal -->
+            <span class="font-italic" style="font-weight: bold; font-size: larger; color: #4F4F4F;">{{ publi['Journal'] }}.</span>
+
+
+
+            <!-- DOI -->
+            {% if publi.DOI %}
+                <p><a href="https://doi.org/{{publi.DOI}}" class="btn btn-outline-primary" style="margin-top:10px;">ACCESS PAPER</a></p>
+            {% endif %}
+        </p>
+
+    </div>
+</li>
+<hr>
+<div style="clear: both;"></div> <!-- Add this to clear the float -->
+<script>
+const allPTags = document.querySelectorAll("p");
+
+allPTags.forEach((elem) => {
+    if (elem.innerText === "" && elem.childNodes.length === 1 && elem.childNodes[0].tagName === "IMG") {
+        elem.parentNode.insertBefore(elem.childNodes[0], elem);
+        elem.remove();
+    }
+});
+</script>

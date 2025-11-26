@@ -1,0 +1,117 @@
+---
+title: Publications
+layout: page
+excerpt: NeurDS Lab -- Our Research.
+permalink: /publications/
+---
+<button id="scrollToTopButton" class="btn btn-light" onclick="scrollToTop()"></button>
+
+<script>
+  window.onscroll = function() {
+    var scrollToTopButton = document.getElementById("scrollToTopButton");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      scrollToTopButton.style.display = "block";
+    } else {
+      scrollToTopButton.style.display = "none";
+    }
+  };
+
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  }
+</script>
+
+<style>
+#scrollToTopButton {
+  display: none;
+  position: fixed;
+  width: 70px;
+  height: 50px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #0A6B65;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  box-shadow: none;
+  outline: none;
+  transition: background-color 0.8s, color 0.8s;
+}
+
+#scrollToTopButton:active,
+#scrollToTopButton:focus {
+  background-color: transparent;
+  color: #0A6B65;
+  border: none;
+  box-shadow: none;
+}
+
+#scrollToTopButton::before {
+  content: "Top";
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  /* Apply hover styles only on devices with a minimum width of 768px (typical tablets and desktops) */
+  #scrollToTopButton:hover {
+    background-color: transparent;
+    color: #0A6B65;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  #scrollToTopButton:hover::before {
+    content: "^";
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  #scrollToTopButton:hover,
+  #scrollToTopButton.clicked {
+    background-color: transparent;
+    color: #0A6B65;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  #scrollToTopButton:hover::before,
+  #scrollToTopButton.clicked::before {
+    content: "^";
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+  }
+}
+</style>
+
+<ul class="list-unstyled">
+    {% assign pub_list = site.data.publications | sort: 'Publication Year' | group_by: 'Publication Year' | reverse %}
+
+    {% for group in pub_list %}
+
+        {% assign year = group.name | to_integer %}
+
+        <h3 class="mt-4">{{ year }}</h3>
+        {% for publi in group.items %}
+            {%- include publication.html -%}
+        {% endfor %}
+
+    {% endfor %}
+</ul>
