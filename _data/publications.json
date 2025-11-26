@@ -14,7 +14,8 @@
     "Title": "CLIP-RT: Learning Language-Conditioned Robotic Policies from Natural Language Supervision",
     "DOI": "https://www.roboticsproceedings.org/rss21/p016.html",
     "Journal": "Robotics: Science and Systems",
-    "Aka": "RSS"
+    "Aka": "RSS",
+    "Oral": "y"
     },
     {
     "Publication Year": 2025,
@@ -38,7 +39,8 @@
     "Title": "PROGrasp: Pragmatic Human-Robot Communication for Object Grasping",
     "DOI": "https://ieeexplore.ieee.org/document/10610543",
     "Journal": "IEEE International Conference on Robotics and Automation",
-    "Aka": "ICRA"
+    "Aka": "ICRA",
+    "Oral": "y"
     },
     {
     "Publication Year": 2023,
@@ -54,7 +56,8 @@
     "Title": "GVCCI: Lifelong Learning of Visual Grounding for Language-Guided Robotic Manipulation",
     "DOI": "https://ieeexplore.ieee.org/document/10342021",
     "Journal": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
-    "Aka": "IROS"
+    "Aka": "IROS",
+    "Oral": "y"
     },
     {
     "Publication Year": 2021,
