@@ -17,34 +17,22 @@
 
 <li class="media mb-1">
     <div class="media-body">
-
         <p>
             <!-- Preview Image or Gif -->
-            
             {% if publi.Preview %}
             <div class="div"> 
                <img src="/assets/images/{{ publi.Preview }}" alt="Manifold Learning" class="img"></img>
             </div>
             {% endif %}
 
-            <!-- author -->
-            {{ publi.Author }},
-
-            <!-- year -->
-           <span style="font-size: larger;">{{ publi['Publication Year'] | to_integer }},</span>
-
-
-            <!-- article title -->
-            <span style="font-weight: bold; font-size: larger; font-style: oblique;">"{{ publi.Title }}"</span>,
-
-            <!-- journal -->
-            <span class="font-italic" style="font-weight: bold; font-size: larger; color: #4F4F4F;">{{ publi['Journal'] }}.</span>
-
-
+            <div><strong>"{{ publi.Title }}"</strong></div>
+            <div>{{ publi.Author }}</div>
+            <div><em>{{ publi["Journal"] }}</em></div>
+            <div>{{ publi["Publication Year"] | to_integer }}</div>
 
             <!-- DOI -->
             {% if publi.DOI %}
-                <p><a href="https://doi.org/{{publi.DOI}}" class="btn btn-outline-primary" style="margin-top:10px;">ACCESS PAPER</a></p>
+                <p><a href="https://doi.org/{{publi.DOI}}" class="btn btn-outline-primary" style="margin-top:10px;">PAPER</a></p>
             {% endif %}
         </p>
 

@@ -20,7 +20,7 @@ education:
     year: "2018-2020"
   - institution: "Ajou University"
     degree: "B.Eng. in Software and Computer Engineering"
-    year: "2018-2020"
+    year: "2011-2018"
 ---
 
 
