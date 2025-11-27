@@ -13,19 +13,4 @@ layout: default
 	<div class="text-center mb-3"> {{ content }} </div>
 </div>
 
-<script>
-  const carousel = document.getElementById('videoCarousel');
-  const videos = carousel.querySelectorAll('video');
 
-  if (videos[0]) videos[0].play();
-
-  $('#videoCarousel').on('slide.bs.carousel', function (event) {
-    videos.forEach(v => {
-      v.pause();
-      v.currentTime = 0;
-    });
-
-    const nextVideo = $(event.relatedTarget).find('video')[0];
-    if (nextVideo) nextVideo.play();
-  });
-</script>
