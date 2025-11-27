@@ -13,9 +13,6 @@ permalink: /
     <video playsinline autoplay muted loop class="webby">
       <source src="/assets/videos/prograsp_overview.mp4" type="video/mp4">
     </video>
-    <video playsinline autoplay muted loop class="webby">
-      <source src="/assets/videos/video3.mp4" type="video/mp4">
-    </video>
   </div>
 </div>
 
