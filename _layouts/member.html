@@ -13,10 +13,10 @@ layout: default
 <div class="text-start mt-5">
     <!-- Avatar -->
     <img src="/assets/images/team/{{ page.image }}"
-         style="max-width: 200px; max-height: 200px; object-fit: contain;"/>
+         style="max-width: 300px; max-height: 300px; object-fit: contain;"/>
 
     <!-- Role & affiliation -->
-    <p style="font-size: 20px;">{{ page.role }}</p>
+    <p style="font-size: 20px;">{{ page.role }}<br>{{ page.affiliation }}</p>
     <p style="font-size: 20px;">{{ page.affiliation }}</p> 
 </div>
 
@@ -26,7 +26,7 @@ layout: default
     <h3 >Education</h3>
     <dl class="ml-3" >
         {% for education in page.education %}
-            <dt style="font-size: 20px; font-weight: normal;">{{ education.institution }} <span style="float:right;">{{ education.year }}</span></dt>
+            <dt style="font-size: 20px;">{{ education.institution }} <span style="float:right;">{{ education.year }}</span></dt>
             <dd class="ml-3" style="font-size: 17px; ">{{ education.degree }} </dd>
         {% endfor %}
     </dl>
@@ -35,7 +35,6 @@ layout: default
 
 {% if content %}
   <div>
-      <h3>Bio</h3>
-      {{ content }}
+      <p style="font-size: 17px;">{{ content }}</p>
   </div>
 {% endif %}
