@@ -3,7 +3,7 @@ layout: member
 category: faculty
 title: 'Gi-Cheon Kang'
 image: 'gckang.jpg'
-role: Principal Investigator
+role: Assistant Professor
 permalink: 'team/gckang'
 social:
     google-scholar: https://scholar.google.com/citations?user=C6J7zI0AAAAJ&hl=en

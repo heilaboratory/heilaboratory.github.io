@@ -13,11 +13,11 @@ layout: default
 <div class="text-center mt-5">
     <!-- Avatar -->
     <img src="/assets/images/team/{{ page.image }}"
-         style="max-width: 200px; max-height: 200px; object-fit: contain;"/>
+         style="max-width: 300px; max-height: 300px; object-fit: contain;"/>
 
     <!-- Name & Role -->
-    <h1 style="color:#0A6B65">{{ page.title }}</h1>
-    <h3 style="color:#0A6B65">{{ page.role }}</h3>
+    <h3>{{ page.title }}</h3>
+    <h3>{{ page.role }}</h3>
 
     <!-- Social -->
     {% assign member = page %}
@@ -37,8 +37,4 @@ layout: default
 </div>
 {% endif %}
 
-<!-- Bio -->
-<div>
-    <h3 >Bio</h3>
-    {{ content }}
-</div>
+
