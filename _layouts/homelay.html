@@ -9,8 +9,28 @@ layout: default
 </style>
 
 <div>
-	<!--<img class="img-cover mb-3" src="/assets/images/u9326.jpg" style="max-height:200px;">-->
-	<div class="text-center mb-3"> {{ content | raw }} </div>
+        <div class="text-center mb-3"> {{ content | raw }} </div>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const video1 = document.getElementById('video1');
+    const video2 = document.getElementById('video2');
+    
+    if (video1 && video2) {
+        video1.addEventListener('ended', function() {
+            video1.style.display = 'none';
+            video2.style.display = 'block';
+            video2.play();
+        });
+        
+        video2.addEventListener('ended', function() {
+            video2.style.display = 'none';
+            video1.style.display = 'block';
+            video1.play();
+        });
+    }
+});
+</script>
 
 
