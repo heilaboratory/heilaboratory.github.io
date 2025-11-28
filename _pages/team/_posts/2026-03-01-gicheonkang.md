@@ -13,16 +13,6 @@ social:
     website: https://gicheonkang.com
     orcid:
     research-gate: 
-education:
-  - institution: "Seoul National University" 
-    degree: "Ph.D. in Artificial Intelligence" 
-    year: "2025"
-  - institution: "Seoul National University" 
-    degree: "M.S. in Cognitive Science" 
-    year: "2020"
-  - institution: "Ajou University"
-    degree: "B.Eng. in Software and Computer Engineering"
-    year: "2018"
 ---
 
 ### Bio
