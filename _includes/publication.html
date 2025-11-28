@@ -27,9 +27,9 @@
 
             <div><strong>{{ publi.Title }}</strong></div>
             <div>{{ publi.Author }}</div>
-            <div>In <em>{{ publi["Journal"] }}</em> ({{ publi["Aka"] }}), {{ publi["Publication Year"] | to_integer }}</div>
+            <div><em>{{ publi["Journal"] }}</em> ({{ publi["Aka"] }}), {{ publi["Publication Year"] | to_integer }}</div>
             {% if publi.Oral %}
-                <div class="text-red font-weight-bold">Oral Presentation</div>
+                <div class="text-red"><strong>Oral Presentation</strong></div>
             {% endif %}
 
             <!-- DOI -->
