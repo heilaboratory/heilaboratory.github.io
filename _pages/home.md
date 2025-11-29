@@ -14,8 +14,10 @@ permalink: /
   </video>
 </div>
 
-<p>
-<strong>Human-Centered Embodied Intelligence (HEI) lab at Ajou University</strong> develops AI agents that can see, talk, reason, and act in real-world environments. We establish theoretical and practical foundations for robot learning and human-robot interaction. Our research focuses on: 1) <strong>foundation models for robotics</strong>—enabling robots to generalize across diverse tasks and environments, 2) <strong>human-robot interaction</strong>—designing natural and collaborative interactions with humans, and 3) <strong>lifelong robot learning</strong>—creating systems that continuously acquire new skills and adapt to changing environments through interaction with humans and environments. 
-</p>
+<div class="mt-3">
+  <p>
+    <strong>Human-Centered Embodied Intelligence (HEI) lab at Ajou University</strong> develops AI agents that can see, talk, reason, and act in real-world environments. We establish theoretical and practical foundations for robot learning and human-robot interaction. Our research focuses on: 1) <strong>foundation models for robotics</strong>—enabling robots to generalize across diverse tasks and environments, 2) <strong>human-robot interaction</strong>—designing natural and collaborative interactions with humans, and 3) <strong>lifelong robot learning</strong>—creating systems that continuously acquire new skills and adapt to changing environments through interaction with humans and environments. 
+  </p>
+</div>
 
 
