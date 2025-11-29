@@ -8,13 +8,15 @@ permalink: /
 </strong>
 
 <div class="video-container">
-  <video id="video1" playsinline autoplay muted preload="auto" class="webby fade-video visible">
+  <video id="video1" playsinline autoplay muted preload="auto">
     <source src="/assets/videos/prograsp_overview.mp4" type="video/mp4">
   </video>
 
-  <video id="video2" playsinline muted preload="metadata" class="webby fade-video">
+  <video id="video2" playsinline muted preload="metadata">
     <source src="/assets/videos/cliprt_overview.mp4" type="video/mp4">
   </video>
 </div>
+
+
 
 
