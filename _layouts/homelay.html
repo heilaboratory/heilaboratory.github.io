@@ -12,10 +12,8 @@ layout: default
 .video-container {
     position: relative;
     width: 100%;
+    aspect-ratio: 1280 / 880;
     overflow: hidden;
-    /* height는 JS로 설정 (두 비디오 중 큰 높이를 기준) */
-    /* 브라우저가 aspect-ratio 지원하면 대체로 괜찮지만,
-       여기서는 JS로 정확히 계산하여 설정합니다. */
 }
 
 /* 비디오들을 컨테이너에 겹치기 */
