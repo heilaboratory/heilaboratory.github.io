@@ -53,6 +53,18 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
 <style>
+    .video-container {
+        position: relative;
+        width: 100%;
+    }
+
+    .video-container video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
     .fade-video {
         opacity: 0;
         transition: opacity 0.8s ease-in-out;
@@ -62,3 +74,5 @@ document.addEventListener('DOMContentLoaded', function() {
         opacity: 1;
     }
 </style>
+
+
