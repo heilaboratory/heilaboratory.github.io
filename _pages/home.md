@@ -3,20 +3,19 @@ title: HEI Lab
 layout: homelay
 permalink: /
 ---
-<strong style="font-size: 20px; display: block; text-align: center;">
-  Welcome to the <span class="u">H</span>uman-Centered <span class="u">E</span>mbodied <span class="u">I</span>ntelligence (HEI) Lab!
-</strong>
 
 <div class="video-container">
   <video id="video1" playsinline autoplay muted preload="auto">
-    <source src="/assets/videos/prograsp_overview.mp4" type="video/mp4">
+    <source src="/assets/videos/cliprt_overview.mp4" type="video/mp4">
   </video>
 
   <video id="video2" playsinline muted preload="metadata">
-    <source src="/assets/videos/cliprt_overview.mp4" type="video/mp4">
+    <source src="/assets/videos/prograsp_overview.mp4" type="video/mp4">
   </video>
 </div>
 
-
+<p>
+<strong>Ajou University Human-Centered Embodied Intelligence (HEI) Lab</strong> develops AI agents that can see, talk, reason, and act in real-world environments. Our mission is to establish theoretical and practical foundations for robot learning and human-robot interaction. Our research focuses on three main areas: 1) <strong>foundation models for robotics</strong>— enabling robots to generalize across diverse tasks and environments, 2) <strong>human-robot interaction</strong>— designing natural and collaborative interactions with humans, and 3) <strong>lifelong robot learning</strong>— creating systems that continuously acquire new skills and adapt to changing environments through experience. 
+</p>
 
 
