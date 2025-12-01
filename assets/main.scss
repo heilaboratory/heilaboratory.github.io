@@ -24,16 +24,17 @@
 }
 
 .profile-row > .col-md-4 {
-  padding-right: 10px;
+  padding-right: 0px;
 }
 
-.profile-row > .col-md-8 {
-  padding-left: 10px;
+.profile-row > .col-md-6 {
+  padding-left: 0px;
 }
 
 @media (max-width: 575.98px) {
   .profile-img {
     margin-bottom: 15px;
+    margin-left: 0px;
   }
 }
 
