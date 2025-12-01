@@ -1,0 +1,39 @@
+<div id="read-more-button">
+  <a id="read-more-trigger">Read more</a>
+</div>
+
+<script>
+const newsList = document.querySelector('.text-start ul');
+if (newsList) {
+  const items = newsList.querySelectorAll('li');
+
+  items.forEach((li, idx) => {
+    if (idx > 10) li.style.display = 'none';
+  });
+
+  document.getElementById('read-more-trigger').addEventListener('click', () => {
+    items.forEach(li => li.style.display = 'list-item');
+    document.getElementById('read-more-button').style.display = 'none';
+  });
+}
+</script>
+
+<style>
+#read-more-button {
+  text-align: center;
+  margin-top: -90px;
+  padding-top: 80px;
+  height: 110px;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 1.0)
+  );
+  position: relative;
+  z-index: 2;
+}
+
+#read-more-button a {
+  cursor: pointer;
+}
+</style>
+

@@ -13,7 +13,8 @@ layout: default
         <h5 class="mt-0"><a href="{{ page.url }}">{{ page.title }}</a></h5>
         {{page.role}}<br>
         {{page.affiliation}}<br>
-        <a target="_blank" href="mailto:{{page.email}}">{{page.email}}</a>
+        <a target="_blank" href="mailto:{{page.email}}">{{page.email}}</a><br>
+        {%- include team_member_social.html member=page -%}
     </div>
 </div>
 
