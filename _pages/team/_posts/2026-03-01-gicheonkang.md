@@ -8,6 +8,7 @@ affiliation: Dept. of Software and Computer Engineering
 email: gchnkang@gmail.com
 permalink: 'team/gckang'
 social:
+    cv: /assets/cv/CV_GCKANG.pdf
     github: https://github.com/gicheonkang
     website: https://gicheonkang.com
     google-scholar: https://scholar.google.com/citations?user=C6J7zI0AAAAJ&hl=en
