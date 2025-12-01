@@ -1,3 +1,5 @@
+{%- assign person = member | default: page -%}
+
 <ul class="list-inline list-unstyled">
     <!-- Twitter -->
     {% if member.social.twitter %}
