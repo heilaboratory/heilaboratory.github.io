@@ -61,7 +61,7 @@ From Basic NLP to ChatGPT and Beyond").
 - [Aug 2018] We have a paper accepted to ECCV 2018 Workshop on <a href="http://vizwiz.org/workshop/">VizWiz Grand Challenge</a>.
 
 <div id="read-more-button">
-    <a nohref>Read more</a>
+    <a href="javascript:void(0)">Read more</a>
 </div>
 
  

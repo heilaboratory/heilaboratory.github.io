@@ -19,19 +19,9 @@ layout: default
     <div class="media-body">
       <h5 class="mt-0"><a href="{{ page.url }}">{{ page.title }}</a></h5>
       <p>{{page.role}}<br>{{page.email}}</p>
-      {%- include team_member_social.html -%}
+      {% include team_member_social.html member=page %}
     </div>
 </li>
-
-
-<div class="text-start mt-5"> 
-    <!-- Avatar -->
-    <img src="/assets/images/team/{{ page.image }}"
-         style="max-width: 230px; max-height: 230px; object-fit: contain;"/>
-
-    <!-- Role & affiliation -->
-    <p><strong>{{ page.role }}</strong><br><strong>{{ page.affiliation }}</strong></p>
-</div>
 
 <!-- Education -->
 {% if page.education %}
