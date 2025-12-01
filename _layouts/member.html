@@ -10,7 +10,21 @@ layout: default
     </ol>
 </nav>
 
-<div class="text-start mt-5">
+<li class="media mt-5">
+    <img class="align-self-center mr-3"
+         src="/assets/images/team/{{ page.image }}"
+         style="max-width: 230px; max-height: 230px; object-fit: contain;"
+         alt="{{page.title}}">
+
+    <div class="media-body">
+      <h5 class="mt-0"><a href="{{ page.url }}">{{ page.title }}</a></h5>
+      <p>{{page.role}}<br>{{page.email}}</p>
+      {%- include team_member_social.html -%}
+    </div>
+</li>
+
+
+<div class="text-start mt-5"> 
     <!-- Avatar -->
     <img src="/assets/images/team/{{ page.image }}"
          style="max-width: 230px; max-height: 230px; object-fit: contain;"/>
