@@ -11,9 +11,11 @@ layout: default
     </div>
     <div class="col-md-8 col-sm-6 col-12 profile-info">
         <h5 class="mt-0"><a href="{{ page.url }}">{{ page.title }}</a></h5>
-        {{page.role}}<br>
-        {{page.affiliation}}<br>
-        <a target="_blank" href="mailto:{{page.email}}">{{page.email}}</a><br>
+        <p>
+            {{page.role}}<br>
+            {{page.affiliation}}<br>
+            <a target="_blank" href="mailto:{{page.email}}">{{page.email}}</a>
+        </p>
         {%- include team_member_social.html member=page -%}
     </div>
 </div>
