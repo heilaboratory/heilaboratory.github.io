@@ -61,7 +61,7 @@ From Basic NLP to ChatGPT and Beyond").
 - [Aug 2018] We have a paper accepted to ECCV 2018 Workshop on <a href="http://vizwiz.org/workshop/">VizWiz Grand Challenge</a>.
 
 <div id="read-more-button">
-    <a href="javascript:void(0)">Read more</a>
+    <a nohref>Read more</a>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script> <script type="text/javascript"> $('ul:gt(0) li:gt(12)').hide(); $('#read-more-button > a').click(function() { $('ul:gt(0) li:gt(12)').show(); $('#read-more-button').hide(); }); </script>

@@ -2,15 +2,23 @@
 layout: default
 ---
 
-<nav aria-label="breadcrumb">
-    <ol class="breadcrumb bg-white px-0">
-        <li class="breadcrumb-item"><a href="/team">Team</a></li>
-        <li class="breadcrumb-item text-capitalize"><a href="/team#{{ page.category }}">{{ page.category }}</a></li>
-        <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
-    </ol>
-</nav>
+<div class="row mt-5 mb-5" >
+    <div class="col-md-4 col-sm-6 col-12">
+        <img class="align-self-center mr-3"
+         src="/assets/images/team/{{ page.image }}"
+         style="max-width: 230px; max-height: 230px; object-fit: contain;"
+         alt="{{page.title}}">
+    </div> 
+    <div class="col-md-8 col-sm-6 col-12" style="margin-bottom: 0;">
+        <h5 class="mt-0"><a href="{{ page.url }}">{{ page.title }}</a></h5>
+        {{page.role}}<br> 
+        {{page.affiliation}}<br>
+        <a target="_blank" href="mailto:{{page.email}}">{{page.email}}</a> 
+    </div>
+</div>
 
-<li class="media mt-3 mb-3">
+
+<li class="media mt-5 mb-5">
     <img class="align-self-center mr-3"
          src="/assets/images/team/{{ page.image }}"
          style="max-width: 230px; max-height: 230px; object-fit: contain;"
