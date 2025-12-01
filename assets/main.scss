@@ -23,6 +23,20 @@
     color: #9A2617 !important;
 }
 
+.profile-row > .col-md-4 {
+  padding-right: 10px;
+}
+
+.profile-row > .col-md-8 {
+  padding-left: 10px;
+}
+
+@media (max-width: 575.98px) {
+  .profile-img {
+    margin-bottom: 15px;
+  }
+}
+
 span.u {
   border-bottom: 2px solid #808080;
   padding-bottom: 1px;
