@@ -14,6 +14,9 @@ layout: default
         {{page.role}}<br>
         {{page.affiliation}}<br>
         <a target="_blank" href="mailto:{{page.email}}">{{page.email}}</a><br>
+        <pre>
+            {{ page.social | jsonify }}
+        </pre>
         {%- include team_member_social.html member=page -%}
     </div>
 </div>
