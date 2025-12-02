@@ -1,12 +1,12 @@
 <li class="media mb-5">
     <img class="align-self-center mr-3"
          src="/assets/images/team/{{ member.image }}"
-         style="max-width: 230px; max-height: 230px; object-fit: contain;"
+         style="max-width: 180px; max-height: 180px; object-fit: contain;"
          alt="{{member.title}}">
 
     <div class="media-body">
       <h5 class="mt-0"><a href="{{ member.url }}">{{ member.title }}</a></h5>
-      <p>{{member.role}}<br>{{member.email}}</p>
+      <p>{{member.role}}<br><a target="_blank" href="mailto:{{member.email}}">{{member.email}}</a></p>
       {%- include team_member_social.html -%}
     </div>
 </li>
