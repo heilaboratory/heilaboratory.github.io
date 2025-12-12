@@ -60,6 +60,7 @@ From Basic NLP to ChatGPT and Beyond").
 - [Jun 2019] Our proposed method ranks <b>3rd place</b> in <a href="https://visualdialog.org/challenge/2019">Visual Dialog Challenge 2019</a>!!
 - [Aug 2018] We have a paper accepted to ECCV 2018 Workshop on <a href="http://vizwiz.org/workshop/">VizWiz Grand Challenge</a>.
 </div>
+{% include news_readmore.html id="news" threshold="5" %}
 
 ---
 
@@ -78,4 +79,4 @@ From Basic NLP to ChatGPT and Beyond").
 - Taehyeong Kim, Injune Hwang, Gi-Cheon Kang, Won-Seok Choi, Hyunseo Kim, Byoung-Tak Zhang, <a href="https://ieeexplore.ieee.org/document/9054655">Label Propagation Adaptive Resonance Theory for Semi-Supervised Continuous Learning</a>, in ICASSP 2020
 - Gi-Cheon Kang, Jaeseo Lim, Byoung-Tak Zhang, <a href="https://aclanthology.org/D19-1209/">Dual Attention Networks for Visual Reference Resolution in Visual Dialog</a>, in EMNLP 2019
 </div>
-{% include news_readmore.html %}
+{% include news_readmore.html id="pub" threshold="5" %}

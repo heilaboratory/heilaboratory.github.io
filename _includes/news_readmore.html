@@ -1,28 +1,31 @@
-<div id="read-more-button">
-  <a id="read-more-trigger">Full List</a>
+<div id="read-more-button-{{ include.id }}" class="read-more-button">
+  <a id="read-more-trigger-{{ include.id }}" class="read-more-trigger">Full List</a>
 </div>
 
-
 <script>
-function setupReadMore(selector, threshold) {
-  const items = document.querySelectorAll(selector);
+(function() {
+  const listSelector = '#{{ include.id }}-list li';
+  const buttonId = 'read-more-button-{{ include.id }}';
+  const triggerId = 'read-more-trigger-{{ include.id }}';
+
+  const items = document.querySelectorAll(listSelector);
   if (!items || items.length === 0) return;
 
+  // 처음에는 threshold 만큼만 표시
+  const threshold = {{ include.threshold | default: 5 }};
   items.forEach((li, idx) => {
     if (idx >= threshold) li.style.display = 'none';
   });
 
-  document.getElementById('read-more-trigger').addEventListener('click', () => {
+  document.getElementById(triggerId).addEventListener('click', () => {
     items.forEach(li => li.style.display = 'list-item');
-    document.getElementById('read-more-button').style.display = 'none';
+    document.getElementById(buttonId).style.display = 'none';
   });
-}
-setupReadMore('#news-list li', 5);
-setupReadMore('#pub-list li', 5);
+})();
 </script>
 
 <style>
-#read-more-button {
+.read-more-button {
   display: flex;
   justify-content: center;
   margin-top: -90px;
@@ -36,7 +39,7 @@ setupReadMore('#pub-list li', 5);
   z-index: 2;
 }
 
-#read-more-button a {
+.read-more-button a {
   cursor: pointer;
 }
 </style>
