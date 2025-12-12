@@ -22,6 +22,7 @@ My research lies at the intersection of multimodal AI and robotics. Specifically
 
 ---
 
+<div id="news-list">
 ### News
 
 - [Nov 2025] I gave a talk at Dept. of Immersive Media Engineering at Sungkyunkwan University (SKKU).
@@ -58,11 +59,11 @@ From Basic NLP to ChatGPT and Beyond").
 - [Aug 2019] Excited to announce that <a href="https://arxiv.org/abs/1902.09368">our paper</a> has been accepted to <a href="https://www.emnlp-ijcnlp2019.org/">EMNLP 2019</a>.
 - [Jun 2019] Our proposed method ranks <b>3rd place</b> in <a href="https://visualdialog.org/challenge/2019">Visual Dialog Challenge 2019</a>!!
 - [Aug 2018] We have a paper accepted to ECCV 2018 Workshop on <a href="http://vizwiz.org/workshop/">VizWiz Grand Challenge</a>.
-
-{% include news_readmore.html %}
+</div>
 
 ---
 
+<div id="pub-list">
 ### Publications
 
 - Seongjun Jeong, Gi-Cheon Kang, Seongho Choi, Joochan Kim, Byoung-Tak Zhang, <a href="https://arxiv.org/abs/2403.15049">Continual Vision-and-Language Navigation</a>, in BMVC 2025
@@ -76,5 +77,5 @@ From Basic NLP to ChatGPT and Beyond").
 - Ahjeong Seo, Gi-Cheon Kang, Joonhan Park, Byoung-Tak Zhang, <a href="https://aclanthology.org/2021.acl-long.481/">Attend What You Need: Motion-Appearance Synergistic Networks for Video Question Answering</a>, in ACL 2021
 - Taehyeong Kim, Injune Hwang, Gi-Cheon Kang, Won-Seok Choi, Hyunseo Kim, Byoung-Tak Zhang, <a href="https://ieeexplore.ieee.org/document/9054655">Label Propagation Adaptive Resonance Theory for Semi-Supervised Continuous Learning</a>, in ICASSP 2020
 - Gi-Cheon Kang, Jaeseo Lim, Byoung-Tak Zhang, <a href="https://aclanthology.org/D19-1209/">Dual Attention Networks for Visual Reference Resolution in Visual Dialog</a>, in EMNLP 2019
-
+</div>
 {% include news_readmore.html %}
