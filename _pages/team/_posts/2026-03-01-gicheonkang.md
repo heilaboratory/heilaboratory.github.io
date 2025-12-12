@@ -21,12 +21,13 @@ I am an Assistant Professor in the Department of [Software and Computer Engineer
 My research lies at the intersection of multimodal AI and robotics. Specifically, I aim to advance robot learning and human-robot interaction by leveraging semantic, generalizable priors from multimodal AI models.
 
 ---
+
 <div class="section-header">
   <h3>News</h3>
   {% include readmore_button.html id="news" threshold="5" %}
 </div>
 
-<ul id="news-list">
+<ul id="news">
 - [Nov 2025] I gave a talk at Dept. of Immersive Media Engineering at Sungkyunkwan University (SKKU).
 - [Oct 2025] I gave a talk at UNIST graduate school of AI.
 - [July 2025] Our vision-language navigation work is accepted to BMVC 2025.
@@ -70,7 +71,7 @@ From Basic NLP to ChatGPT and Beyond").
   {% include readmore_button.html id="pub" threshold="5" %}
 </div>
 
-<ul id="pub-list">
+<ul id="pub">
 - Seongjun Jeong, Gi-Cheon Kang, Seongho Choi, Joochan Kim, Byoung-Tak Zhang, <a href="https://arxiv.org/abs/2403.15049">Continual Vision-and-Language Navigation</a>, in BMVC 2025
 - Gi-Cheon Kang<sup>*</sup>, Junghyun Kim<sup>*</sup>, Kyuhwan Shim, Jun Ki Lee, Byoung-Tak Zhang, <a href="https://www.roboticsproceedings.org/rss21/p016.html">CLIP-RT: Learning Language-Conditioned Robotic Policies from Natural Language Supervision</a>, in RSS 2025 (Oral)
 - Suyeon Shin, Sujin Jeon<sup>*</sup>, Junghyun Kim<sup>*</sup>, Gi-Cheon Kang<sup>*</sup>, Byoung-Tak Zhang, <a href="https://ieeexplore.ieee.org/abstract/document/11128677">Socratic Planner: Self-QA-Based Zero-Shot Planning for Embodied Instruction Following</a>, in ICRA 2025
