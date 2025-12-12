@@ -7,10 +7,8 @@
   const sectionId = '{{ include.id }}';
   const triggerId = 'read-more-trigger-' + sectionId;
   
-  const header = document.getElementById(sectionId);
-  if (!header) return;
-  
-  const list = header.nextElementSibling;
+  // id로 직접 ul을 찾기
+  const list = document.getElementById(sectionId);
   if (!list || list.tagName !== 'UL') return;
   
   const items = list.querySelectorAll('li');
