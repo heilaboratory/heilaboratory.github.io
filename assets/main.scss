@@ -33,7 +33,11 @@
 
 .section-header {
   display: flex;
-  align-items: center;
+  align-items: baseline;
+}
+
+.section-header .read-more-btn-pub {
+  margin-left: 10px;
 }
 
 @media (max-width: 575.98px) {

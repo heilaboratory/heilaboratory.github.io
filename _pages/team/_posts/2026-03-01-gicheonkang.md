@@ -22,10 +22,7 @@ My research lies at the intersection of multimodal AI and robotics. Specifically
 
 ---
 
-<div class="section-header">
-  <h3>News</h3>
-  {% include readmore_button.html id="news" threshold="5" %}
-</div>
+### News
 
 <ul id="news">
   <li>[Nov 2025] I gave a talk at Dept. of Immersive Media Engineering at Sungkyunkwan University (SKKU).</li>
@@ -62,11 +59,12 @@ My research lies at the intersection of multimodal AI and robotics. Specifically
   <li>[Jun 2019] Our proposed method ranks <b>3rd place</b> in <a href="https://visualdialog.org/challenge/2019">Visual Dialog Challenge 2019</a>!!</li>
   <li>[Aug 2018] We have a paper accepted to ECCV 2018 Workshop on <a href="http://vizwiz.org/workshop/">VizWiz Grand Challenge</a>.</li>
 </ul>
+{% include news_readmore.html id="news" threshold="5" %}
 ---
 
 <div class="section-header">
-  <h3>Publications</h3>
-  {% include readmore_button.html id="pub" threshold="5" %}
+  <h3>Recent Publications</h3>
+  {% include pub_btn.html id="pub" threshold="5" %}
 </div>
 
 <ul id="pub">

@@ -1,14 +1,12 @@
-<a id="read-more-trigger-{{ include.id }}" 
-   class="read-more-btn"
-   href="#"
-   onclick="return false;">
+<a id="read-more-trigger-{{ include.id }}"
+   class="read-more-btn-pub"
+   href="/publications">
   (Full List)
 </a>
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   const sectionId = '{{ include.id }}';
-  const triggerId = 'read-more-trigger-' + sectionId;
 
   const list = document.getElementById(sectionId);
   if (!list || list.tagName !== 'UL') return;
@@ -18,14 +16,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const threshold = {{ include.threshold | default: 5 }};
 
+  // 처음 5개만 보이게
   items.forEach((li, idx) => {
     if (idx >= threshold) li.style.display = 'none';
-  });
-
-  const trigger = document.getElementById(triggerId);
-  trigger?.addEventListener('click', () => {
-    items.forEach(li => li.style.display = 'list-item');
-    trigger.style.display = 'none';
   });
 });
 </script>
