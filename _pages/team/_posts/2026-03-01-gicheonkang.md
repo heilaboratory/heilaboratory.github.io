@@ -22,7 +22,10 @@ My research lies at the intersection of multimodal AI and robotics. Specifically
 
 ---
 
-### News {% include readmore_button.html id="news" threshold="5" %}
+<div class="section-header">
+  <h3>News</h3>
+  {% include readmore_button.html id="news" threshold="5" %}
+</div>
 
 <ul id="news" markdown="1">
 
@@ -63,7 +66,10 @@ From Basic NLP to ChatGPT and Beyond").
 </ul>
 ---
 
-### Publications {% include readmore_button.html id="pub" threshold="5" %}
+<div class="section-header">
+  <h3>Publications</h3>
+  {% include readmore_button.html id="pub" threshold="5" %}
+</div>
 
 <ul id="pub" markdown="1">
 
