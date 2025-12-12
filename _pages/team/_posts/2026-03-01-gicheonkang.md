@@ -21,10 +21,12 @@ I am an Assistant Professor in the Department of [Software and Computer Engineer
 My research lies at the intersection of multimodal AI and robotics. Specifically, I aim to advance robot learning and human-robot interaction by leveraging semantic, generalizable priors from multimodal AI models.
 
 ---
+<div class="section-header">
+  <h3>News</h3>
+  {% include readmore_button.html id="news" threshold="5" %}
+</div>
 
 <div id="news-list">
-### News
-
 - [Nov 2025] I gave a talk at Dept. of Immersive Media Engineering at Sungkyunkwan University (SKKU).
 - [Oct 2025] I gave a talk at UNIST graduate school of AI.
 - [July 2025] Our vision-language navigation work is accepted to BMVC 2025.
@@ -60,13 +62,15 @@ From Basic NLP to ChatGPT and Beyond").
 - [Jun 2019] Our proposed method ranks <b>3rd place</b> in <a href="https://visualdialog.org/challenge/2019">Visual Dialog Challenge 2019</a>!!
 - [Aug 2018] We have a paper accepted to ECCV 2018 Workshop on <a href="http://vizwiz.org/workshop/">VizWiz Grand Challenge</a>.
 </div>
-{% include news_readmore.html id="news" threshold="5" %}
 
 ---
 
-<div id="pub-list">
-### Publications
+<div class="section-header">
+  <h3>Publications</h3>
+  {% include readmore_button.html id="pub" threshold="5" %}
+</div>
 
+<div id="pub-list">
 - Seongjun Jeong, Gi-Cheon Kang, Seongho Choi, Joochan Kim, Byoung-Tak Zhang, <a href="https://arxiv.org/abs/2403.15049">Continual Vision-and-Language Navigation</a>, in BMVC 2025
 - Gi-Cheon Kang<sup>*</sup>, Junghyun Kim<sup>*</sup>, Kyuhwan Shim, Jun Ki Lee, Byoung-Tak Zhang, <a href="https://www.roboticsproceedings.org/rss21/p016.html">CLIP-RT: Learning Language-Conditioned Robotic Policies from Natural Language Supervision</a>, in RSS 2025 (Oral)
 - Suyeon Shin, Sujin Jeon<sup>*</sup>, Junghyun Kim<sup>*</sup>, Gi-Cheon Kang<sup>*</sup>, Byoung-Tak Zhang, <a href="https://ieeexplore.ieee.org/abstract/document/11128677">Socratic Planner: Self-QA-Based Zero-Shot Planning for Embodied Instruction Following</a>, in ICRA 2025
@@ -79,4 +83,3 @@ From Basic NLP to ChatGPT and Beyond").
 - Taehyeong Kim, Injune Hwang, Gi-Cheon Kang, Won-Seok Choi, Hyunseo Kim, Byoung-Tak Zhang, <a href="https://ieeexplore.ieee.org/document/9054655">Label Propagation Adaptive Resonance Theory for Semi-Supervised Continuous Learning</a>, in ICASSP 2020
 - Gi-Cheon Kang, Jaeseo Lim, Byoung-Tak Zhang, <a href="https://aclanthology.org/D19-1209/">Dual Attention Networks for Visual Reference Resolution in Visual Dialog</a>, in EMNLP 2019
 </div>
-{% include news_readmore.html id="pub" threshold="5" %}

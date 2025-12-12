@@ -1,46 +1,24 @@
-<div id="read-more-button-{{ include.id }}" class="read-more-button">
-  <a id="read-more-trigger-{{ include.id }}" class="read-more-trigger">Full List</a>
-</div>
+<a id="read-more-trigger-{{ include.id }}" class="read-more-btn">
+  (Full List)
+</a>
 
 <script>
 (function() {
   const listSelector = '#{{ include.id }}-list li';
-  const buttonId = 'read-more-button-{{ include.id }}';
   const triggerId = 'read-more-trigger-{{ include.id }}';
 
   const items = document.querySelectorAll(listSelector);
   if (!items || items.length === 0) return;
 
-  // 처음에는 threshold 만큼만 표시
   const threshold = {{ include.threshold | default: 5 }};
-  items.forEach((li, idx) => {
-    if (idx >= threshold) li.style.display = 'none';
+
+  items.forEach((li, i) => {
+    if (i >= threshold) li.style.display = 'none';
   });
 
-  document.getElementById(triggerId).addEventListener('click', () => {
-    items.forEach(li => li.style.display = 'list-item');
-    document.getElementById(buttonId).style.display = 'none';
+  document.getElementById(triggerId)?.addEventListener('click', () => {
+    items.forEach(li => (li.style.display = 'list-item'));
+    document.getElementById(triggerId).style.display = 'none';
   });
 })();
 </script>
-
-<style>
-.read-more-button {
-  display: flex;
-  justify-content: center;
-  margin-top: -90px;
-  padding-top: 80px;
-  height: 110px;
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0.3),
-      rgba(255, 255, 255, 1.0)
-  );
-  position: relative;
-  z-index: 2;
-}
-
-.read-more-button a {
-  cursor: pointer;
-}
-</style>
-
