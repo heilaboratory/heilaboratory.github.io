@@ -24,7 +24,7 @@ My research lies at the intersection of multimodal AI and robotics. Specifically
 
 ### News
 
-<ul id="news">
+<ul id="news-list">
   <li>[Nov 2025] I gave a talk at Dept. of Immersive Media Engineering at Sungkyunkwan University (SKKU).</li>
   <li>[Oct 2025] I gave a talk at UNIST graduate school of AI.</li>
   <li>[July 2025] Our vision-language navigation work is accepted to BMVC 2025.</li>
@@ -64,7 +64,7 @@ My research lies at the intersection of multimodal AI and robotics. Specifically
 
 <div class="section-header">
   <h3>Recent Publications</h3>
-  {% include pub_btn.html id="pub" threshold="5" %}
+  <span style="font-size: 16px; display: inline;">(<a href="/publications">Full List</a>)</span>
 </div>
 
 <ul id="pub">
@@ -123,3 +123,4 @@ My research lies at the intersection of multimodal AI and robotics. Specifically
     in EMNLP 2019
   </li>
 </ul>
+{% include pub_btn.html id="pub" threshold="5" %}
