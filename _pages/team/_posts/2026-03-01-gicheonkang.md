@@ -62,12 +62,7 @@ My research lies at the intersection of multimodal AI and robotics. Specifically
 {% include news_readmore.html id="news" threshold="5" %}
 ---
 
-### Recent Publications <span style="font-size: 16px; display: inline;">(<a href="/publications">Full List</a>)</span>
-
-<div class="section-header">
-  <h3>Recent Publications</h3>
-  <span style="font-size: 16px; display: inline;">(<a href="/publications">Full List</a>)</span>
-</div>
+### Recent Publications <span style="font-size: 16px; display: inline;"><a href="/publications">[Full List]</a></span>
 
 <ul id="pub">
   <li>Seongjun Jeong, Gi-Cheon Kang, Seongho Choi, Joochan Kim, Byoung-Tak Zhang,
