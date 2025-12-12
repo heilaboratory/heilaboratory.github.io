@@ -3,26 +3,26 @@
 </a>
 
 <script>
-(function() {
+document.addEventListener("DOMContentLoaded", function () {
   const sectionId = '{{ include.id }}';
   const triggerId = 'read-more-trigger-' + sectionId;
-  
-  // id로 직접 ul을 찾기
+
   const list = document.getElementById(sectionId);
   if (!list || list.tagName !== 'UL') return;
-  
+
   const items = list.querySelectorAll('li');
-  if (!items || items.length === 0) return;
-  
+  if (!items.length) return;
+
   const threshold = {{ include.threshold | default: 5 }};
-  
+
   items.forEach((li, idx) => {
     if (idx >= threshold) li.style.display = 'none';
   });
-  
-  document.getElementById(triggerId)?.addEventListener('click', () => {
+
+  const trigger = document.getElementById(triggerId);
+  trigger?.addEventListener('click', () => {
     items.forEach(li => li.style.display = 'list-item');
-    document.getElementById(triggerId).style.display = 'none';
+    trigger.style.display = 'none';
   });
-})();
+});
 </script>
