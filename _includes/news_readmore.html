@@ -4,20 +4,26 @@
 
 <script>
 (function() {
-  const listSelector = '#{{ include.id }} li';
-  const triggerId = 'read-more-trigger-{{ include.id }}';
-
-  const items = document.querySelectorAll(listSelector);
+  const sectionId = '{{ include.id }}';
+  const triggerId = 'read-more-trigger-' + sectionId;
+  
+  const header = document.getElementById(sectionId);
+  if (!header) return;
+  
+  const list = header.nextElementSibling;
+  if (!list || list.tagName !== 'UL') return;
+  
+  const items = list.querySelectorAll('li');
   if (!items || items.length === 0) return;
-
+  
   const threshold = {{ include.threshold | default: 5 }};
-
-  items.forEach((li, i) => {
-    if (i >= threshold) li.style.display = 'none';
+  
+  items.forEach((li, idx) => {
+    if (idx >= threshold) li.style.display = 'none';
   });
-
+  
   document.getElementById(triggerId)?.addEventListener('click', () => {
-    items.forEach(li => (li.style.display = 'list-item'));
+    items.forEach(li => li.style.display = 'list-item');
     document.getElementById(triggerId).style.display = 'none';
   });
 })();
