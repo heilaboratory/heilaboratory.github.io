@@ -52,10 +52,22 @@ span.u {
   padding-bottom: 1px;
 }
 
+
 span.footer {
-  color: #808080;
+  display: inline-block;
   margin: 5px 0;
+  text-align: center;
+}
+
+.footer-text {
+  display: block;     
   font-size: 14px;
+  color: #808080;
+  margin-bottom: 5px;
+}
+
+.footer-logo {
+  display: block;
 }
 
 
