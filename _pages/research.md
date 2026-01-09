@@ -23,6 +23,9 @@ We develop machine learning algorithms for robot learning and human-robot intera
 
 ### 1. Foundation Models for Robotics
 
+### 2. Human-Robot Interaction
+
+### 3. Lifelong Robot Learning
 ---
 
 
