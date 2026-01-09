@@ -19,7 +19,7 @@ permalink: /research
     }
 </style>
 
-We develop machine learning algorithms for robot learning and human-robot interaction. Our group is focusing on how robots acquire generalizable behaviors, interact and collaborate naturally with humans, and continuously adapt to new environments, tasks, and users. We usually leverage generalizable priors from multimodal AI models to enable robots to learn, reason, and act robustly across diverse tasks and environments. 
+We develop machine learning algorithms for robot learning and human-robot interaction. Our group is focusing on how robots acquire generalizable behaviors, collaborate naturally with humans, and continuously adapt to the physical world. We usually leverage generalizable priors from multimodal AI models to enable robots to learn, reason, and act robustly across diverse tasks and environments. 
 
 ### 1. Foundation Models for Robotics
 
