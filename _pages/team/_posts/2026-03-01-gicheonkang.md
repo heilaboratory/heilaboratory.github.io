@@ -5,7 +5,7 @@ title: 'Gi-Cheon Kang'
 image: 'gckang.jpg'
 role: Assistant Professor
 affiliation: Dept. of Software and Computer Engineering
-email: gchnkang@gmail.com
+email: gckang@ajou.ac.kr
 permalink: 'team/gckang'
 social:
     cv: /assets/cv/CV_GCKANG.pdf
