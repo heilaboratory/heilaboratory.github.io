@@ -5,11 +5,11 @@ permalink: /contactus/
 ---
 
 
-### Undergraduate Interns
+#### Undergraduate Interns
 
 We are looking for motivated undergraduate interns to join our lab. Interns will focus on reviewing state-of-the-art Physical AI research and assisting in robot-based experiments and operations. 
 
-If you are interested, please send an email to Professor with the subject line "[Internship Application] Name_Major". Make sure to attach:
+If you are interested, please send an email to Professor. Make sure to attach:
 <ul>
 <li><strong>Academic Transcript</strong>: A copy of your most recent official transcript</li>
 <li><strong>English Score</strong>: Proof of English proficiency (e.g., TOEIC, TOEFL, or equivalent)</li>
