@@ -22,7 +22,7 @@ permalink: /team/
 </div>
 </ul>
 
-
+{% comment %}
 <h2 class="mb-3"><a id="student"></a>Master Students</h2>
 
 {% assign members = site.posts | where: 'category', 'phd-student'%}
@@ -40,6 +40,7 @@ permalink: /team/
 {% endfor %}
 </div>
 </ul>
+{% endcomment %}
 
 <!-- Students -->
 <h2 class="mb-3"><a id="alumni"></a>Interns</h2>
