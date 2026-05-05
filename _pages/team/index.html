@@ -25,7 +25,7 @@ permalink: /team/
 {% comment %}
 <h2 class="mb-3"><a id="student"></a>Master Students</h2>
 
-{% assign members = site.posts | where: 'category', 'phd-student'%}
+{% assign members = site.posts | where: 'category', 'phd-student' | sort: 'joined'%}
 <ul class="list-unstyled">
 <div class="row">
 {% for member in members%}
@@ -44,8 +44,7 @@ permalink: /team/
 
 <!-- Students -->
 <h2 class="mb-3"><a id="alumni"></a>Interns</h2>
-
-{% assign members = site.posts | where: 'category', 'student' %}
+{% assign members = site.posts | where: 'category', 'student' | sort: 'joined' %}
 <ul class="list-unstyled">
 <div class="row">
 {% for member in members%}
