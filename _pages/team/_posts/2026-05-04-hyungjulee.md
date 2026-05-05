@@ -18,5 +18,3 @@ social:
 I am an Intern at Ajou University under the supervision of Prof. Gi-Cheon Kang. My research interests include Human-Robot Interaction, Vision-Language-Action (VLA) models.
 
 Currently, I am studying at the Department of Military Digital Convergence at Ajou University.
-
----
