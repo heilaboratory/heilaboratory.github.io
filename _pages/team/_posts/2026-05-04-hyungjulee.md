@@ -6,7 +6,7 @@ image: 'hyung_ju_lee.jpg'
 role: Intern
 affiliation: Dept. of Military Digital Convergence
 email: lhy0417@ajou.ac.kr
-permalink: 'team/'
+permalink: 'team/hjlee'
 social:
     github: https://github.com/LeeHJ030417
     linkedin: https://www.linkedin.com/in/hyung-ju-lee-74611a30b/
