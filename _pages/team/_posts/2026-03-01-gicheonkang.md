@@ -126,6 +126,7 @@ My research lies at the intersection of multimodal AI and robotics. Specifically
 
 Reviewing
 <ul>
+<li>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2026</li>
 <li>Robotics: Science and Systems (RSS), 2026</li>
 <li>IEEE Transactions on Robotics (T-RO), 2025</li>
 <li>IEEE Robotics and Automation Letters (RA-L), 2024</li>
