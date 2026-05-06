@@ -24,6 +24,7 @@ My research lies at the intersection of multimodal AI and robotics. Specifically
 ### News
 
 <ul id="news-list">
+  <li>[May 2026] I gave a talk at Korea Institute of Science and Technology (KIST).</li
   <li>[Nov 2025] I gave a talk at Dept. of Immersive Media Engineering at Sungkyunkwan University (SKKU).</li>
   <li>[Oct 2025] I gave a talk at UNIST graduate school of AI.</li>
   <li>[July 2025] Our vision-language navigation work is accepted to BMVC 2025.</li>
