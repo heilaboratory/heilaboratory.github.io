@@ -25,39 +25,7 @@ My research lies at the intersection of multimodal AI and robotics. Specifically
 
 <ul id="news-list">
   <li>[May 2026] I gave a talk at Korea Institute of Science and Technology (KIST).</li>
-  <li>[Nov 2025] I gave a talk at Dept. of Immersive Media Engineering at Sungkyunkwan University (SKKU).</li>
-  <li>[Oct 2025] I gave a talk at UNIST graduate school of AI.</li>
-  <li>[July 2025] Our vision-language navigation work is accepted to BMVC 2025.</li>
-  <li>[April 2025] Happy to announce that our work (<a href="https://clip-rt.github.io">CLIP-RT</a>) is accepted to <a href="https://roboticsconference.org">RSS 2025</a>!</li>
-  <li>[April 2025] I'm selected as a member of <a href="https://sites.google.com/view/rsspioneers2025/">RSS Pioneers</a>!</li>
-  <li>[Nov 2024] Happy to release a new robotics foundation model, <a href="https://clip-rt.github.io">CLIP-RT</a>!</li>
-  <li>[Aug 2024] I'm selected as a recipient of the Youlchon AI Star Fellowship.</li>
-  <li>[Jun 2024] <a href="https://arxiv.org/abs/2310.12547">PGA</a> is accepted at <a href="https://iros2024-abudhabi.org">IROS 2024</a>.</li>
-  <li>[Apr 2024] A preprint for embodied instruction following (<a href="https://arxiv.org/abs/2404.15190">Socratic Planner</a>) is released.</li>
-  <li>[Mar 2024] I wrote my <a target="_blank" href="docs/Research_Statement_GCKANG.pdf">research statement</a> about what I've been studying.</li>
-  <li>[Mar 2024] A new preprint (<a href="https://arxiv.org/abs/2403.15049">Continual Vision-and-Language Navigation</a>) is released.</li>
-  <li>[Jan 2024] <a href="https://arxiv.org/abs/2309.07759">PROGrasp</a> is accepted to <a href="https://2024.ieee-icra.org">ICRA 2024</a>!</li>
-  <li>[Dec 2023] I attend <a href="https://sites.google.com/g.skku.edu/brainlink2023/">Brainlink 2023</a>.</li>
-  <li>[Nov 2023] I'll give a talk at Dept. of Energy Resources Engineering at Seoul National University (Title: "The Evolution of Language Models: From Basic NLP to ChatGPT and Beyond").</li>
-  <li>[Oct 2023] Two preprints (<a href="https://arxiv.org/abs/2309.07759">PROGrasp</a> and <a href="https://arxiv.org/abs/2310.12547">PGA</a>) are released!</li>
-  <li>[Jun 2023] One paper is accepted to <a href="https://ieee-iros.org">IROS 2023</a>!</li>
-  <li>[Mar 2023] Happy to announce that <a href="https://arxiv.org/abs/2205.12502">our paper</a> is accepted to <a href="https://cvpr2023.thecvf.com">CVPR 2023</a>!</li>
-  <li>[Jun 2022] One paper is accepted to ICML 2022 <a href="https://pretraining.github.io">Pre-training Workshop</a>.</li>
-  <li>[May 2022] Thrilled to announce that our <a href="https://arxiv.org/abs/2205.12502">new preprint</a> is released!</li>
-  <li>[Apr 2022] One paper is accepted to CVPR 2022 <a href="https://sites.google.com/nycu.edu.tw/hcis/home">HCIS Workshop</a>.</li>
-  <li>[Dec 2021] I gave an invited talk at Korea Software Congress.</li>
-  <li>[Oct 2021] One paper is accepted to NeurIPS 2021 CtrlGen Workshop.</li>
-  <li>[Aug 2021] One paper is accepted to Findings of EMNLP 2021.</li>
-  <li>[May 2021] One paper is accepted to ACL 2021.</li>
-  <li>[Sep 2020] I'm starting my Ph.D. in this fall.</li>
-  <li>[Jun 2020] From July, I'll join <a href="https://aiis.snu.ac.kr">SNU AI Institute</a> (AIIS) as a researcher.</li>
-  <li>[Jan 2020] Our paper has been accepted to ICASSP 2020!</li>
-  <li>[Dec 2019] From January, I'll be a research intern at <a href="https://www.skt.ai">SK T-Brain</a>!</li>
-  <li>[Nov 2019] I gave a spotlight talk at <a href="https://videoturingtest.github.io">Video Turing Test workshop</a>, ICCV 2019.</li>
-  <li>[Oct 2019] I gave an invited talk at <a href="https://www.skt.ai">SK Telecom AI Center</a>.</li>
-  <li>[Aug 2019] Excited to announce that <a href="https://arxiv.org/abs/1902.09368">our paper</a> has been accepted to <a href="https://www.emnlp-ijcnlp2019.org/">EMNLP 2019</a>.</li>
-  <li>[Jun 2019] Our proposed method ranks <b>3rd place</b> in <a href="https://visualdialog.org/challenge/2019">Visual Dialog Challenge 2019</a>!!</li>
-  <li>[Aug 2018] We have a paper accepted to ECCV 2018 Workshop on <a href="http://vizwiz.org/workshop/">VizWiz Grand Challenge</a>.</li>
+  <li>[March 2026] I'm joining as an Assistant Professor of Software at Ajou University.</li>
 </ul>
 {% include news_readmore.html id="news" threshold="5" %}
 ---
@@ -128,9 +96,9 @@ My research lies at the intersection of multimodal AI and robotics. Specifically
 Reviewing
 <ul>
 <li>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2026</li>
-<li>Robotics: Science and Systems (RSS), 2026</li>
 <li>IEEE Transactions on Robotics (T-RO), 2025</li>
-<li>IEEE Robotics and Automation Letters (RA-L), 2024</li>
+<li>Conference on Robot Learning (CoRL), 2026</li>
+<li>Robotics: Science and Systems (RSS), 2026</li>
 <li>Neural Information Processing Systems (NeurIPS), 2023-2025</li>
 <li>International Conference on Learning Representations (ICLR), 2024-2026</li>
 </ul>
