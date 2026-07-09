@@ -1,5 +1,20 @@
 [
-	
+    {
+    "Publication Year": 2026,
+    "Author": "Ngseo Kim, Junghyun Kim, Gi-Cheon Kang†, Youngjae Yu†, Byoung-Tak Zhang†",
+    "Title": "MicroVLA: Edge-Deployable Vision Language Action at 10M Parameters",
+    "DOI": "https://heilaboratory.github.io/publications/",
+    "Journal": "RSS 2026 Workshop on Lab to Production",
+    "Aka": "RSSW"
+    },
+	{
+    "Publication Year": 2026,
+    "Author": "Junghyun Kim*, Ngseo Kim*, ChungWoo Lee, Seoyeon Lee, Woo-Jeong Baek, Adam Zhou, Chip Huyen, Jun-Ki Lee†, Gi-Cheon Kang†, Byoung-Tak Zhang†",
+    "Title": "Disentangling Spurious Correlations in Vision-Language-Action Models via Predicting Domain-Invariant Latent Lookahead",
+    "DOI": "https://heilaboratory.github.io/publications/",
+    "Journal": "RSS 2026 Workshop on Perception to Action",
+    "Aka": "RSSW"
+    },
     {
     "Publication Year": 2025,
     "Author": "Seongjun Jeong, Gi-Cheon Kang, Seongho Choi, Joochan Kim, Byoung-Tak Zhang",
