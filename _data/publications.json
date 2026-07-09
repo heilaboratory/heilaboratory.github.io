@@ -3,7 +3,7 @@
     "Publication Year": 2026,
     "Author": "Ngseo Kim, Junghyun Kim, Gi-Cheon Kang†, Youngjae Yu†, Byoung-Tak Zhang†",
     "Title": "MicroVLA: Edge-Deployable Vision Language Action at 10M Parameters",
-    "DOI": "https://heilaboratory.github.io/publications/",
+    "DOI": "https://robotics-workshop.github.io/l2p-rss26/",
     "Journal": "RSS Workshop on Lab to Production",
     "Aka": "RSSW"
     },
@@ -11,7 +11,7 @@
     "Publication Year": 2026,
     "Author": "Junghyun Kim*, Ngseo Kim*, ChungWoo Lee, Seoyeon Lee, Woo-Jeong Baek, Adam Zhou, Chip Huyen, Jun-Ki Lee†, Gi-Cheon Kang†, Byoung-Tak Zhang†",
     "Title": "Disentangling Spurious Correlations in Vision-Language-Action Models via Predicting Domain-Invariant Latent Lookahead",
-    "DOI": "https://heilaboratory.github.io/publications/",
+    "DOI": "https://rcba-workshop.github.io/rss2026/accepted-papers.html",
     "Journal": "RSS Workshop on Perception to Action",
     "Aka": "RSSW"
     },
@@ -19,7 +19,7 @@
     "Publication Year": 2026,
     "Author": "Seongjun Jeong, Junghyun Kim, Gi-Cheon Kang†, Byoung-Tak Zhang†",
     "Title": "Can Embodied Agents Remember What You Said? Evaluating Dialogue-Grounded Embodied Memory in 3D Environments",
-    "DOI": "https://heilaboratory.github.io/publications/",
+    "DOI": "https://3d-llm-vla.github.io/",
     "Journal": "CVPR Workshop on 3D-LLM/VLA",
     "Aka": "CVPRW"
     },
