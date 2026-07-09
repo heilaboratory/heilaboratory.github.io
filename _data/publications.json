@@ -16,6 +16,14 @@
     "Aka": "RSSW"
     },
     {
+    "Publication Year": 2026,
+    "Author": "Seongjun Jeong, Junghyun Kim, Gi-Cheon Kang†, Byoung-Tak Zhang†",
+    "Title": "Can Embodied Agents Remember What You Said? Evaluating Dialogue-Grounded Embodied Memory in 3D Environments",
+    "DOI": "https://heilaboratory.github.io/publications/",
+    "Journal": "CVPR Workshop on 3D-LLM/VLA",
+    "Aka": "CVPRW"
+    },
+    {
     "Publication Year": 2025,
     "Author": "Seongjun Jeong, Gi-Cheon Kang, Seongho Choi, Joochan Kim, Byoung-Tak Zhang",
     "Title": "Continual Vision-and-Language Navigation",
