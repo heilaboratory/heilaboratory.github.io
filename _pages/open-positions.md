@@ -11,7 +11,7 @@ We are looking for motivated graduate students excited to:
 <li>dive deep into cutting-edge Physical AI research</li>
 <li>grow into experts in AI and robotics</li>
 <li>turn research into meaningful real-world impact</li>
-</ul> 
+</ul>
 
 To support your growth, our lab provides:
 <ul>
@@ -21,7 +21,7 @@ To support your growth, our lab provides:
 <li>a stipend covering tuition and living expenses</li>
 </ul>
 
-Prospective graduate students are required to complete a minimum three-month internship in our lab prior to admission. The internship is designed to help applicants develop the technical foundation needed for research, while allowing both the applicant and the lab to assess research alignment, working style, and overall fit. Please note that completion of the internship does not guarantee admission to the graduate program.
+Prospective students are required to complete a minimum 3 month internship in our lab prior to admission. The internship is designed to help applicants develop the technical foundation needed for research, while allowing both the applicant and the lab to assess research alignment, working style, and overall fit. Please note that completion of the internship does not guarantee admission to the graduate program.
 
 If you are interested, please send an email to the professor. Your email should include:
 <ul>
@@ -31,7 +31,7 @@ If you are interested, please send an email to the professor. Your email should 
 <li><strong>Academic Transcript</strong>: A copy of your most recent official transcript</li>
 <li><strong>English Score</strong>: Proof of English proficiency (e.g., TOEIC, TOEFL, or equivalent)</li>
 </ul>
-
+---
 
 ##### Undergraduate Interns
 
