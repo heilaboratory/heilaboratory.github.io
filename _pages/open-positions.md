@@ -21,7 +21,7 @@ To support your growth, our lab provides:
 <li>a stipend covering tuition and living expenses</li>
 </ul>
 
-Prospective students are required to complete a minimum 3 month internship in our lab prior to admission. The internship is designed to help applicants build the technical foundation for research, while allowing both the applicant and the lab to assess research alignment, working style, and overall fit. Please note that completion of the internship does not guarantee admission to the graduate program.
+Prospective graduate students are required to complete a minimum 3 month internship in our lab prior to admission. The internship is designed to help applicants build the technical foundation for research, while allowing both the applicant and the lab to assess research alignment, working style, and overall fit. Please note that completion of the internship does not guarantee admission to the graduate program.
 
 If you are interested, please send an email to the professor. Your email should include:
 <ul>
