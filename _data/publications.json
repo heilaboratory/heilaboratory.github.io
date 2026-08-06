@@ -4,7 +4,7 @@
     "Author": "Ngseo Kim, Junghyun Kim, Gi-Cheon Kang†, Youngjae Yu†, Byoung-Tak Zhang†",
     "Title": "MicroVLA: Edge-Deployable Vision Language Action at 10M Parameters",
     "DOI": "https://robotics-workshop.github.io/l2p-rss26/",
-    "Journal": "RSS Workshop on Lab to Production",
+    "Journal": "RSS Workshop on L2P",
     "Aka": "RSSW"
     },
 	{
@@ -12,7 +12,7 @@
     "Author": "Junghyun Kim*, Ngseo Kim*, ChungWoo Lee, Seoyeon Lee, Woo-Jeong Baek, Adam Zhou, Chip Huyen, Jun-Ki Lee†, Gi-Cheon Kang†, Byoung-Tak Zhang†",
     "Title": "Disentangling Spurious Correlations in Vision-Language-Action Models via Predicting Domain-Invariant Latent Lookahead",
     "DOI": "https://rcba-workshop.github.io/rss2026/accepted-papers.html",
-    "Journal": "RSS Workshop on Semantic Reasoning and Goal Understanding in Robotics",
+    "Journal": "RSS Workshop on SemRob",
     "Aka": "RSSW",
     "Oral": "y"
     },
@@ -39,6 +39,7 @@
     "DOI": "https://www.roboticsproceedings.org/rss21/p016.html",
     "Journal": "Robotics: Science and Systems",
     "Aka": "RSS",
+    "PAGE": "https://clip-rt.github.io/",
     "Oral": "y"
     },
     {

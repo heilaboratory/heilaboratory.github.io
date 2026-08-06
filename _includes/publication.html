@@ -25,9 +25,13 @@
                 <div class="text-red"><strong>Oral Presentation</strong></div>
             {% endif %}
 
+            <!-- Project page -->
+            {% if publi.PAGE %}
+                <p><a href="{{publi.PAGE}}" class="btn btn-outline-primary" style="margin-top:10px;">Project Page</a></p>
+            {% endif %}
             <!-- DOI -->
             {% if publi.DOI %}
-                <p><a href="{{publi.DOI}}" class="btn btn-outline-primary" style="margin-top:10px;">PAPER</a></p>
+                <p><a href="{{publi.DOI}}" class="btn btn-outline-primary" style="margin-top:10px;">Paper</a></p>
             {% endif %}
         </p>
     </div>
