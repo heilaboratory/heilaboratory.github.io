@@ -24,15 +24,18 @@
             {% if publi.Oral %}
                 <div class="text-red"><strong>Oral Presentation</strong></div>
             {% endif %}
-
-            <!-- Project page -->
-            {% if publi.PAGE %}
-                <p><a href="{{publi.PAGE}}" class="btn btn-outline-primary" style="margin-top:10px;">Project Page</a></p>
-            {% endif %}
-            <!-- DOI -->
-            {% if publi.DOI %}
-                <p><a href="{{publi.DOI}}" class="btn btn-outline-primary" style="margin-top:10px;">Paper</a></p>
-            {% endif %}
+            
+            <!-- Project Page & DOI buttons on same line -->
+            {% if publi.PAGE or publi.DOI %}
+                <p style="margin-top:10px;">
+                    {% if publi.PAGE %}
+                        <a href="{{publi.PAGE}}" class="btn btn-outline-primary">Project Page</a>
+                    {% endif %}
+                    {% if publi.DOI %}
+                        <a href="{{publi.DOI}}" class="btn btn-outline-primary">Paper</a>
+                    {% endif %}
+                </p>
+            {% endif %} 
         </p>
     </div>
 </li>
