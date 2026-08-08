@@ -35,7 +35,8 @@
     "DOI": "https://www.roboticsproceedings.org/rss21/p016.html",
     "Journal": "RSS 2025",
     "PAGE": "https://clip-rt.github.io/",
-    "Presentation": "Oral"
+    "Presentation": "Oral",
+    "CODE": "https://github.com/clip-rt/clip-rt",
     },
     {
     "Publication Year": 2025,
@@ -49,7 +50,8 @@
     "Author": "Junghyun Kim, Gi-Cheon Kang*, Jaein Kim*, Seoyoon Yang, Minjoon Jung, Byoung-Tak Zhang",
     "Title": "PGA: Personalizing Grasping Agents with Single Human-Robot Interaction",
     "DOI": "https://ieeexplore.ieee.org/document/10801347",
-    "Journal": "IROS 2024"
+    "Journal": "IROS 2024",
+    "CODE": "https://github.com/JHKim-snu/PGA"
     },
     {
     "Publication Year": 2024,
@@ -57,14 +59,16 @@
     "Title": "PROGrasp: Pragmatic Human-Robot Communication for Object Grasping",
     "DOI": "https://ieeexplore.ieee.org/document/10610543",
     "Journal": "ICRA 2024",
-    "Presentation": "Oral"
+    "Presentation": "Oral",
+    "CODE": "https://github.com/gicheonkang/prograsp"
     },
     {
     "Publication Year": 2023,
     "Author": "Gi-Cheon Kang, Sungdong Kim*, Jin-Hwa Kim*, Donghyun Kwak*, Byoung-Tak Zhang",
     "Title": "The Dialog Must Go On: Improving Visual Dialog via Generative Self-Training",
     "DOI": "https://ieeexplore.ieee.org/document/10203535",
-    "Journal": "CVPR 2023"
+    "Journal": "CVPR 2023",
+    "CODE": "https://github.com/gicheonkang/gst-visdial"
     },
     {
     "Publication Year": 2023,
@@ -72,7 +76,8 @@
     "Title": "GVCCI: Lifelong Learning of Visual Grounding for Language-Guided Robotic Manipulation",
     "DOI": "https://ieeexplore.ieee.org/document/10342021",
     "Journal": "IROS 2023",
-    "Presentation": "Oral"
+    "Presentation": "Oral",
+    "CODE": "https://github.com/JHKim-snu/GVCCI"
     },
     {
     "Publication Year": 2021,
@@ -80,14 +85,16 @@
     "Title": "Reasoning Visual Dialog with Sparse Graph Learning and Knowledge Transfer",
     "DOI": "https://aclanthology.org/2021.findings-emnlp.31",
     "Journal": "EMNLP 2021",
-    "Presentation": "Findings"
+    "Presentation": "Findings",
+    "CODE": "https://github.com/gicheonkang/sglkt-visdial"
     },
     {
     "Publication Year": 2021,
     "Author": "Ahjeong Seo, Gi-Cheon Kang, Joonhan Park, Byoung-Tak Zhang",
     "Title": "Attend What You Need: Motion-Appearance Synergistic Networks for Video Question Answering",
     "DOI": "https://aclanthology.org/2021.acl-long.481",
-    "Journal": "ACL 2021"
+    "Journal": "ACL 2021",
+    "CODE": "https://github.com/jeyajseo/MASN-pytorch"
     },
     {
     "Publication Year": 2020,
@@ -101,7 +108,8 @@
     "Author": "Gi-Cheon Kang, Jaeseo Lim, Byoung-Tak Zhang",
     "Title": "Dual Attention Networks for Visual Reference Resolution in Visual Dialog",
     "DOI": "https://aclanthology.org/D19-1209",
-    "Journal": "EMNLP 2019"
+    "Journal": "EMNLP 2019",
+    "CODE": "https://github.com/gicheonkang/dan-visdial"
     }
 
 ]
