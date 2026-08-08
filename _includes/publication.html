@@ -33,10 +33,13 @@
             {% if publi.PAGE or publi.DOI %}
                 <p style="margin-top:10px;">
                     {% if publi.PAGE %}
-                        <a href="{{publi.PAGE}}" class="btn btn-outline-primary">Project Page</a>
+                        <a href="{{publi.PAGE}}" class="btn btn-sm btn-outline-primary">Project Page</a>
                     {% endif %}
                     {% if publi.DOI %}
-                        <a href="{{publi.DOI}}" class="btn btn-outline-primary">Paper</a>
+                        <a href="{{publi.DOI}}" class="btn btn-sm btn-outline-primary">Paper</a>
+                    {% endif %}
+                    {% if publi.CODE %}
+                        <a href="{{publi.CODE}}" class="btn btn-sm btn-outline-primary">Code</a>
                     {% endif %}
                 </p>
             {% endif %} 
