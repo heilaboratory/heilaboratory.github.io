@@ -33,6 +33,12 @@ My research lies at the intersection of multimodal AI and robotics. Specifically
 ### Recent Publications <span style="font-size: 16px; display: inline;"><a href="/publications">[Full List]</a></span>
 
 <ul id="pub">
+
+  <li>Junghyun Kim*, Ngseo Kim*, ChungWoo Lee, Seoyeon Lee, Woo-Jeong Baek, Adam Zhou, Chip Huyen, Jun-Ki Lee†, Gi-Cheon Kang†, Byoung-Tak Zhang†,
+    <a href="https://openreview.net/pdf/73fae11240f9a3d42fcae770f38e0063d2181f15.pdf">Disentangling Spurious Correlations in Vision-Language-Action Models via Predicting Domain-Invariant Latent Lookahead</a>,
+    in CoRL 2026
+  </li>
+
   <li>Seongjun Jeong, Gi-Cheon Kang, Seongho Choi, Joochan Kim, Byoung-Tak Zhang,
     <a href="https://arxiv.org/abs/2403.15049">Continual Vision-and-Language Navigation</a>,
     in BMVC 2025
