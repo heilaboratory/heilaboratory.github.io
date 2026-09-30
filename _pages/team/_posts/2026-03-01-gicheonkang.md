@@ -35,7 +35,7 @@ My research lies at the intersection of multimodal AI and robotics. Specifically
 <ul id="pub">
 
   <li>Junghyun Kim*, Ngseo Kim*, ChungWoo Lee, Seoyeon Lee, Woo-Jeong Baek, Adam Zhou, Chip Huyen, Jun-Ki Lee†, Gi-Cheon Kang†, Byoung-Tak Zhang†,
-    <a href="https://openreview.net/pdf/73fae11240f9a3d42fcae770f38e0063d2181f15.pdf">Disentangling Spurious Correlations in Vision-Language-Action Models via Predicting Domain-Invariant Latent Lookahead</a>,
+    <a href="https://arxiv.org/pdf/2609.37165">Disentangling Spurious Correlations in Vision-Language-Action Models via Predicting Domain-Invariant Latent Lookahead</a>,
     in CoRL 2026
   </li>
 
