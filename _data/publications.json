@@ -1,6 +1,13 @@
 [
     {
     "Publication Year": 2026,
+    "Author": "SeongJun Jeong, ChungWoo Lee, Gi-Cheon Kang†, Byoung-Tak Zhang†",
+    "Title": "SARAM: Sparse Adapter Allocation with Reuse and Merging for Lifelong Robot Learning",
+    "DOI": "https://www.robot-learning.ml/2026/",
+    "Journal": "NeurIPS 2026 Workshop on Robot Learning",
+    },
+    {
+    "Publication Year": 2026,
     "Author": "Junghyun Kim*, Ngseo Kim*, ChungWoo Lee, Seoyeon Lee, Woo-Jeong Baek, Adam Zhou, Chip Huyen, Jun-Ki Lee†, Gi-Cheon Kang†, Byoung-Tak Zhang†",
     "Title": "Disentangling Spurious Correlations in Vision-Language-Action Models via Predicting Domain-Invariant Latent Lookahead",
     "DOI": "https://arxiv.org/pdf/2609.37165",
